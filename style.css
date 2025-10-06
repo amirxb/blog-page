@@ -1,0 +1,39 @@
+body {
+  font-family: 'Afacad', 'Roboto', 'Funnel', sans-serif;
+  background-color: #1b4332;
+  height: 100vh;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 20px;
+}
+
+.navbar-logo a{
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+  margin-left: 50px;
+  font-size: 25px;
+}
+
+.navbar-type {
+  display: flex;
+  gap: 60px;
+}
+
+.navbar-type a {
+  text-decoration: none;
+  color: white;
+  font-size: 18px;
+}
+
+.navbar-btn button {
+  margin-right: 40px;
+  font-size: 15px;
+  padding: 5px 15px;
+  border-radius: 3px;
+  border-style: none;
+}

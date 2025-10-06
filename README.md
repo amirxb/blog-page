@@ -1,0 +1,1 @@
+# Simple Nature Inspired Blog Page
