@@ -1,21 +1,24 @@
 body {
   font-family: 'Afacad', 'Roboto', 'Funnel', sans-serif;
-  background-color: #1b4332;
+  background-color: #2d6a4f;
   height: 100vh;
 }
+
+/* Navbar */
 
 nav {
   display: flex;
   align-items: center;
   justify-content: space-between;
   padding-top: 20px;
+  margin-bottom: 20px;
 }
 
 .navbar-logo a{
-  color: white;
+  color: #d8f3dc;
   text-decoration: none;
   font-weight: 500;
-  margin-left: 50px;
+  margin-left: 100px;
   font-size: 25px;
 }
 
@@ -26,14 +29,51 @@ nav {
 
 .navbar-type a {
   text-decoration: none;
-  color: white;
+  color: #d8f3dc;
   font-size: 18px;
 }
 
+a:hover {
+  color: white;
+  transition: 250ms ease-in-out;
+}
+
 .navbar-btn button {
-  margin-right: 40px;
+  margin-right: 100px;
   font-size: 15px;
   padding: 5px 15px;
   border-radius: 3px;
   border-style: none;
+  background-color: #d8f3dc;
+}
+
+/* Section */
+
+.title p {
+  color: white;
+  font-size: 65px;
+  margin-left: 100px;
+  margin-bottom: 15px;
+  margin-top: 80px;
+  font-weight: 450;
+}
+
+.content {
+  display: flex;
+  gap: 35px;
+  margin-left: 100px;
+}
+
+.content img {
+  height: 450px;
+  width: 800px;
+  object-fit: cover;
+  border-radius: 15px;
+}
+
+.content p {
+  color: white;
+  font-size: 22px;
+  width: 400px;
+  margin-top: 20px;
 }
